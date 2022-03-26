@@ -5,6 +5,7 @@ dist/
 /tmp/
 declarations/
 .eslintcache
+.turbo
 
 # dependencies
 node_modules/
@@ -20,6 +21,7 @@ node_modules/
 /npm-debug.log*
 /testem.log
 /yarn-error.log
+
 
 # ember-try
 /.node_modules.ember-try/

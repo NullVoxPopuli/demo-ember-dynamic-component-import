@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 
-export default class Demo extends Component {
+export default class AsyncComponent extends Component {
   @tracked TheComponent;
   @tracked error;
 
@@ -16,8 +16,4 @@ export default class Demo extends Component {
       this.error = e;
     }
   };
-
-  get isLoading() {
-    return !this.TheComponent && !this.error;
-  }
 }

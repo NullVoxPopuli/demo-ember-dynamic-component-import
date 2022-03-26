@@ -3,9 +3,9 @@
 to run:
 ```shell
 pnpm install
-cd ember-app
 pnpm run start
 ```
+visit localhost:4200
 then, click the button
 
 
