@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "workspaces": [
+    "my-addon",
+    "testing/*"
+  ],
+  "repository": "https://github.com/NullVoxPopuli/ember-addon-v2-typescript-demo",
+  "license": "MIT",
+  "author": "NullVoxPopuli",
+  "scripts": {
+    "build": "yarn workspace my-addon build",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "ember-template-lint": "^3.16.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-ember": "^10.5.9",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.6.1"
+  },
+  "volta": {
+    "node": "16.13.2",
+    "yarn": "1.22.17",
+    "npm": "8.4.0"
+  },
+  "engines": {
+    "node": "14.* || >= 16.*"
+  }
+}
